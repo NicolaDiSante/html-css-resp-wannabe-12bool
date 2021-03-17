@@ -72,7 +72,6 @@ img {
   clear: both;
 }
 
-
 @media all and (max-width: 767px) {
 
   #lezioni, #why, #steps {
@@ -86,7 +85,23 @@ img {
   }
   
   img {
-    height: 100px;
+    height:100px;
   }
   
 }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #lezioni, #why, #steps {
+    padding: 20px 20px;
+    width:100%;
+  }
+
+  #steps.container {
+    background-color: #428bca;
+  }
+
+  img {
+    height: 70px;
+  }
+}
+  
